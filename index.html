@@ -669,33 +669,6 @@
                 }
             });
 
-            // Pacing Line Chart
-            const ctxPacing = document.getElementById('pacingChart').getContext('2d');
-            new Chart(ctxPacing, {
-                type: 'line',
-                data: {
-                    labels: ['20:00', '20:30', '21:00', '21:30', '22:00', '22:30', '23:00'],
-                    datasets: [{
-                        label: 'Competition Intensity',
-                        data: [20, 50, 60, 80, 70, 40, 90], // Peaks at transit times and scoring
-                        borderColor: '#BC4749',
-                        tension: 0.4
-                    },
-                    {
-                        label: 'Social Chatter',
-                        data: [80, 70, 60, 50, 60, 90, 100], // High at start and end
-                        borderColor: '#6A994E',
-                        tension: 0.4
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: { y: { display: false } },
-                    plugins: { legend: { position: 'bottom' } }
-                }
-            });
-
             // Scoring Donut Chart
             const ctxScore = document.getElementById('scoreChart').getContext('2d');
             new Chart(ctxScore, {
