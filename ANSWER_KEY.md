@@ -43,10 +43,7 @@
 ### B4: The Tiled History (Cafe 't Loosje)
 - **Task**: Photo must show the "Brouwerij" (Brewery) tile tableau
 
-### B-Bonus: Velvet Canal Stone
-- **Location**: Oudezijds Voorburgwal 249
-- **Proof**: Photo of The Velvet Merchant stone
-- **Reward**: **20 VP**
+
 
 ---
 
